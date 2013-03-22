@@ -1,0 +1,46 @@
+{
+  "name": "grunt-velocity.js",
+  "description": "grunt plugin for velocity, easily used",
+  "version": "0.2.0",
+  "homepage": "https://github.com/lorrylockie/grunt-velocity.js",
+  "author": {
+    "name": "lorrylockie",
+    "email": "lorrylockie@gmail.com",
+    "url": "https://github.com/lorrylockie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lorrylockie/grunt-velocity.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lorrylockie/grunt-velocity.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lorrylockie/grunt-velocity.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.0"
+  },
+  "dependencies":{
+      "velocityjs":"0.3.7"
+  },
+  "peerDependencies": {
+    "grunt": "0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
